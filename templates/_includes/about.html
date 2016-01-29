@@ -1,0 +1,11 @@
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>About Me</h2>
+            <p>{{ABOUT_TITLE}}</p>
+            <p>{{ABOUT_SUBTITLE}}</p>
+            {% if GOOGLE_DRIVE_RESUME_PDF %}
+            <iframe src={{GOOGLE_DRIVE_RESUME_PDF}} width="640" height="820"></iframe>
+            {% endif %}
+        </div>
+    </div>
+
