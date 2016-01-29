@@ -4,7 +4,9 @@
             <p>{{ABOUT_TITLE}}</p>
             <p>{{ABOUT_SUBTITLE}}</p>
             {% if GOOGLE_DRIVE_RESUME_PDF %}
+            <div class="resume-container">
             <iframe src={{GOOGLE_DRIVE_RESUME_PDF}} width="640" height="820"></iframe>
+            </div>
             {% endif %}
         </div>
     </div>
